@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run : echo "Hii,good morning !!"
+        run : |
+              echo "Hii,good morning !!"
+              echo "Hey! It's great to see you"
       - name : Print goodbye 
         run : echo "Leaving is never easy, but I'll cherish the momments we shared. Goodbye and stay in touch"
       
